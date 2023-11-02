@@ -244,7 +244,7 @@ $(function () {
 
     //TOPに戻るボタンの表示・非表示を切り替える関数
     function PageTopAnime() {
-      var targetPos = $('#strike-now').offset().top; //表示開始の位置を取得
+      var targetPos = $('#top-list').offset().top; //表示開始の位置を取得
       var scroll = $(window).scrollTop(); //スクロール値を取得
       if (scroll >= targetPos) {//200pxスクロールしたら
         $('#page-top').removeClass('RightMove');		// DownMoveというクラス名を除去して
